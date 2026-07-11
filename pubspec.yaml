@@ -1,0 +1,11 @@
+name: card_demo
+description: A tiny demo showing Flutter's Card widget and three properties.
+version: 0.0.1
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
