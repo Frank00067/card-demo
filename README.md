@@ -6,9 +6,13 @@ A Flutter demo app showcasing the `Card` widget — a Material Design surface us
 
 ## Run Instructions
 
-1. Make sure Flutter is installed and on your PATH.
-2. Clone or download this repo, then from the project root run:
+### Option A — DartPad (no install needed)
+1. Go to [https://dartpad.dev](https://dartpad.dev)
+2. Click **New Pad** → select **Flutter**
+3. Delete the default code and paste the full contents of `lib/main.dart`
+4. Click **Run** — the app appears on the right
 
+### Option B — Local Flutter
 ```bash
 flutter pub get
 flutter run
@@ -26,14 +30,12 @@ flutter run
 
 ---
 
-## Screenshot
-
-> _(Add screenshot here before submitting — save as `screenshot.png` in the project root and embed below)_
-
-![App Screenshot](screenshot.png)
-
----
-
 ## Real-World Use Case
 
 Cards are used in virtually every app — product listings (Amazon), music tracks (Spotify), news articles, profile summaries. This demo shows a product card for a pair of wireless headphones.
+
+---
+
+## Screenshot
+
+![App Screenshot](screenshot.png)
