@@ -4,15 +4,8 @@ A Flutter demo app showcasing the `Card` widget — a Material Design surface us
 
 ---
 
-## Run Instructions
 
-### Option A — DartPad (no install needed)
-1. Go to [https://dartpad.dev](https://dartpad.dev)
-2. Click **New Pad** → select **Flutter**
-3. Delete the default code and paste the full contents of `lib/main.dart`
-4. Click **Run** — the app appears on the right
-
-### Option B — Local Flutter
+### Option — Local Flutter
 ```bash
 flutter pub get
 flutter run
@@ -36,6 +29,3 @@ Cards are used in virtually every app — product listings (Amazon), music track
 
 ---
 
-## Screenshot
-
-![App Screenshot](screenshot.png)
