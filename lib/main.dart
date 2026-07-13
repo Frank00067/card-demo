@@ -12,9 +12,9 @@ class CardDemoApp extends StatelessWidget {
     return MaterialApp(
       title: 'Card Demo',
       theme: ThemeData(primarySwatch: Colors.indigo),
-      home: const Scaffold(
-        appBar: AppBar(title: Text('Card Widget Demo')),
-        body: Padding(
+      home: Scaffold(
+        appBar: AppBar(title: const Text('Card Widget Demo')),
+        body: const Padding(
           padding: EdgeInsets.all(16.0),
           child: CardDemo(),
         ),
